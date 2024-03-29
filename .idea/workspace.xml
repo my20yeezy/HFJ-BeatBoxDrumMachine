@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="229aa2ae-0aa8-449e-b3c5-d3f266e284d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="229aa2ae-0aa8-449e-b3c5-d3f266e284d1" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BeatBoxDrumMachine/MiniMiniMusicApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BeatBoxDrumMachine/MiniMusicCmdLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,20 +28,53 @@
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2eNgLpiAigs4LcD3YroKZa48I87" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MiniMiniMusicApp.executor": "Run",
+    "Application.MiniMusicCmdLine.executor": "Run",
+    "Application.MusicTest1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MiniMusicCmdLine">
+    <configuration name="MiniMiniMusicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BeatBoxDrumMachine.MiniMiniMusicApp" />
+      <module name="HFJ-BeatBoxDrumMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BeatBoxDrumMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniMusicCmdLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BeatBoxDrumMachine.MiniMusicCmdLine" />
+      <module name="HFJ-BeatBoxDrumMachine" />
+      <option name="PROGRAM_PARAMETERS" value="40 80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BeatBoxDrumMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MusicTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BeatBoxDrumMachine.MusicTest1" />
       <module name="HFJ-BeatBoxDrumMachine" />
@@ -46,8 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MiniMiniMusicApp" />
+      <item itemvalue="Application.MiniMusicCmdLine" />
+      <item itemvalue="Application.MusicTest1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiniMusicCmdLine" />
+        <item itemvalue="Application.MiniMiniMusicApp" />
         <item itemvalue="Application.MusicTest1" />
       </list>
     </recent_temporary>
@@ -68,6 +117,19 @@
       <option name="presentableId" value="Default" />
       <updated>1711750399106</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1711750754273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711750754273</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>
